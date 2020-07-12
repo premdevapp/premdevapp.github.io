@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.size{
+    font-size: 0.5em;
+}
+img{
+    float: right;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+section{
+    margin-bottom: 20px;
+}
+.row{
+    font-size: 0.8em;
+}
+.nes-progress{
+    height: 25px;
+}
